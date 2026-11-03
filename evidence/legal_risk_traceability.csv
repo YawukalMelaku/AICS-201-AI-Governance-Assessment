@@ -1,0 +1,27 @@
+Risk_ID,Risk_Category,Applicable_Framework,Relevant_Requirement,Required_Control,Compliance_Evidence,Priority
+R001,Algorithmic Bias,NDPA 2023,Section 24 - Fair and transparent processing,Group fairness testing and bias mitigation,Fairness assessment and model validation report,Critical
+R001,Algorithmic Bias,UNESCO 2021,Fairness and non-discrimination,Assess disparate outcomes across demographic groups,Group fairness report,Critical
+R001,Algorithmic Bias,OECD AI Principles,Human rights and fairness,Monitor discriminatory outcomes and establish remediation,Model monitoring records,Critical
+R002,Privacy and Data Protection,NDPA 2023,Sections 24-30 - Processing principles and sensitive data,Data minimisation lawful basis and privacy impact assessment,Data inventory lawful-basis assessment and DPIA,Critical
+R002,Privacy and Data Protection,UNESCO 2021,Privacy and data protection,Privacy-by-design and data protection safeguards,Privacy assessment and access-control records,Critical
+R003,Unfair Financial Decisions,NDPA 2023,Section 37 - Automated decision-making safeguards,Human intervention and decision contest mechanisms where applicable,Human review and appeal records,Critical
+R003,Unfair Financial Decisions,EU AI Act,Annex III point 5(b) - Creditworthiness assessment,Assess high-risk classification and applicable requirements,Classification rationale and technical documentation,Critical
+R003,Unfair Financial Decisions,OECD AI Principles,Transparency and explainability,Provide understandable explanations for consequential decisions,Model explanation records,High
+R004,Insufficient Transparency,NDPA 2023,Sections 26-27 - Consent and information requirements,Clear privacy notices and appropriate processing information,Published privacy notice and consent records where applicable,High
+R004,Insufficient Transparency,UNESCO 2021,Transparency and explainability,Communicate system capabilities limitations and relevant decision factors,User documentation and explanation records,High
+R004,Insufficient Transparency,OECD AI Principles,Transparency and explainability,Document model purpose limitations and decision processes,Model documentation,High
+R005,Inadequate Human Oversight,NDPA 2023,Section 37 - Automated decision-making safeguards,Establish appropriate human intervention and contest procedures,Human review logs and appeal records,Critical
+R005,Inadequate Human Oversight,EU AI Act,Article 14 - Human oversight where applicable,Design effective oversight for applicable high-risk systems,Human oversight procedure and testing evidence,Critical
+R005,Inadequate Human Oversight,UNESCO 2021,Human oversight and determination,Ensure consequential decisions have appropriate human responsibility,Review and escalation records,High
+R006,Cybersecurity and Adversarial Attacks,NDPA 2023,Section 39 - Security of personal data,Encryption access control monitoring and incident response,Security test results and incident response records,Critical
+R006,Cybersecurity and Adversarial Attacks,EU AI Act,Article 15 - Accuracy robustness and cybersecurity where applicable,Test resilience against adversarial attacks and system failures,Security assessment and robustness test reports,Critical
+R006,Cybersecurity and Adversarial Attacks,OECD AI Principles,Robustness security and safety,Implement security testing and continuous monitoring,Security monitoring records,Critical
+R007,Model Drift and Performance Degradation,EU AI Act,Article 9 - Risk management where applicable,Monitor performance and reassess system risks throughout its lifecycle,Model monitoring and validation reports,High
+R007,Model Drift and Performance Degradation,OECD AI Principles,Robustness security and safety,Monitor reliability and performance degradation,Performance monitoring reports,High
+R008,Third-Party and Supply Chain Risk,NDPA 2023,Sections 41-43 - Personal data transfers,Assess processors and applicable international transfer safeguards,Vendor assessments and transfer documentation,High
+R008,Third-Party and Supply Chain Risk,OECD AI Principles,Accountability,Establish supplier responsibilities and oversight,Vendor due diligence and contractual records,High
+R009,Identity Verification Errors,NDPA 2023,Section 24 - Accuracy and fairness,Validate identity data and provide correction mechanisms,Identity verification test results and correction records,High
+R009,Identity Verification Errors,UNESCO 2021,Proportionality and prevention of harm,Test false rejection rates and provide alternative verification routes,Verification performance and exception reports,High
+R010,Insufficient Accountability and Auditability,NDPA 2023,Section 24 - Accountability principle,Maintain processing documentation and audit evidence,Processing records and audit reports,High
+R010,Insufficient Accountability and Auditability,EU AI Act,Articles 11 and 12 - Technical documentation and record-keeping where applicable,Maintain technical documentation and appropriate system logs,Technical documentation and system logs,High
+R010,Insufficient Accountability and Auditability,OECD AI Principles,Accountability,Assign accountable owners and document decisions,Governance records and risk acceptance documents,High
